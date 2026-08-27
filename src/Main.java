@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Enter Grade Precent: ");
+        System.out.print("Enter Grade Precent: ");
         double grade = Double.parseDouble(scanner.nextLine());
         if (grade >= 90 && grade <= 100) {
             System.out.println("A");
